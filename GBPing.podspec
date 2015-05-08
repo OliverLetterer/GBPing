@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.author       = { 'Luka Mirosevic' => 'luka@goonbee.com' }
   s.platform     = :ios, '5.0'
   s.source       = { :git => 'https://github.com/lmirosevic/GBPing.git', :tag => s.version.to_s }
-  s.source_files  = 'GBPing/*.{h,m}'
-  s.public_header_files = 'GBPing/*.h'
+
+  s.source_files  = 'GBPing'
   s.requires_arc = true
 end
